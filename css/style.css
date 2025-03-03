@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+.sawarabi-gothic-regular {
+  font-family: "Sawarabi Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+	height:100%;
+	margin: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	background-size: cover;
+	touch-action: pan-y;
+	user-select: none;
+}
+
+body, div {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+	margin: 0;
+	padding: 0;
+}
+
+.title1 {
+	text-align: center;
+	font-family: "Sawarabi Gothic";
+	color: red;
+	font-size: 40px;
+
+}
+
+a {
+	font-weight: 240;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	transition-delay: 0.15s;
+	line-height: 27.5px;
+}
+a:link {
+	color: rgb(255, 255, 255); text-decoration: none
+}
+a:visited {
+	color: rgb(255, 255, 255); text-decoration: none
+}
+a:hover {
+	font-weight: 240;
+	font-size: 25px;
+	color: rgb(255, 0, 0);
+	text-decoration: none;
+	transition: color 0.15s linear;
+	-webkit-transition: color 0.15 linear;
+	-moz-transition: color 0.15 linear;
+}
+a:active {
+	color: #FFFFFF; text-decoration: none
+}
+
+#screen {
+	padding: 20px 30px;
+	/* border: 2px solid white; */
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.65;
+	/* background-color: #000000; */
+	font-family: 'Sawarabi Gothic';
+	color: red;
+}
+
+#enterSite {
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+	background-color: rgb(0, 0, 0);
+	z-index: -10;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+}
+
+.t1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.t2 {
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+#video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+img{
+	padding: 0px;
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+/* Style for the button */
+button.back-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change color when the user hovers over the button */
+button.back-btn:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+
+.navbar {
+  background-color: black; /* Dark background color */
+  overflow: hidden; /* Prevents content from flowing outside the navbar */
+  position: sticky; /* Keeps the navbar at the top of the page */
+  top: 0; /* Ensure it sticks to the top */
+  width: 100%; /* Make the navbar span the full width */
+}
+
+.navbar ul {
+  list-style-type: none; /* Removes the default list bullets */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Makes the menu items line up horizontally */
+  justify-content: center; /* Centers the menu items */
+}
+
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  display: block; /* Makes the link fill the whole list item */
+  padding: 14px 20px; /* Adds space inside the links */
+  color: white; /* White text color */
+  text-align: center; /* Centers the text inside the links */
+  text-decoration: none; /* Removes the underline */
+  font-size: 18px;
+}
+
+.navbar a:hover {
+	background-color: red; /* Light background color */
+	color: white; /* Changes text color on hover */
+}
+
