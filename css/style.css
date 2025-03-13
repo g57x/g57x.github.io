@@ -6,6 +6,11 @@
   font-style: normal;
 }
 
+
+
+
+
+
 body {
 	height:100%;
 	margin: 0;
@@ -89,14 +94,14 @@ a:active {
 	z-index: 200;
 }
 
-.t1 {
+.get {
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%)
 }
 
-.t2 {
+.fucked {
 	flex-wrap: nowrap;
 	white-space: nowrap;
 	margin: 20px auto;
@@ -160,6 +165,7 @@ button.back-btn:hover {
 .navbar li {
   display: inline;
 }
+
 
 .navbar a {
   display: block; /* Makes the link fill the whole list item */

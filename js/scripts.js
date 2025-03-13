@@ -19,15 +19,15 @@ if (document.addEventListener) {
 }
 
 function loaded() {
-    setInterval(loop, 450); 
+    setInterval(loop, 400); 
 }
 
 var x = 0;
-var titleText = ["E","El","Ele","Elek","Elekt","Elektr","Elektri","Elektrik","Elektrik E","Elektrik Ee","Elektrik Eel"];
+var titleText = ["|","G","G5","G57","G57X","G57","G5","G","|"];
 
 function loop() {
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
 }
 
 var audio = document.getElementById("audio");
-  audio.volume = 0.1;
+  audio.volume = 1;
